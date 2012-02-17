@@ -34,7 +34,7 @@ isc.ZewRestDataSource.create({
 		title : 'Title'
 	}, {
 		name : "genre",
-		title : 'Genre', 
+		title : 'Genre',
 		width : 150,
 		editorType : "select",
 		displayField : 'name',
