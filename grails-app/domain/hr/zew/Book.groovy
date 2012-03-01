@@ -2,6 +2,7 @@ package hr.zew
 
 class Book {
 	//This is a change
+	//This is another change
 	String title
 	String author
 	Genre genre
