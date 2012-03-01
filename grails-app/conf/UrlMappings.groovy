@@ -1,5 +1,3 @@
-import org.grails.plugins.rest.JSONApiRegistry;
-
 class UrlMappings {
 
 	static mappings = {
@@ -7,10 +5,6 @@ class UrlMappings {
 			constraints {
 				// apply constraints here
 			}
-		}
-		"/api/$domain" (controller: 'jsonRestApi') {
-			entity = { JSONApiRegistry.registry[params.domain] }
-			action = { request.JSON.operationType }
 		}
 
 		"/"(view:"/index")
