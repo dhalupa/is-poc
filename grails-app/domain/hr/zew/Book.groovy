@@ -1,6 +1,7 @@
 package hr.zew
 
 class Book {
+	//Change added to aother branch
 	String title
 	String author
 	Genre genre
