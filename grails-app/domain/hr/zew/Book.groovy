@@ -7,6 +7,7 @@ class Book {
 	String author
 	Genre genre
 //bla
+	//truc
 	static expose='book'
 
 	static mapping={ genre lazy:false }
